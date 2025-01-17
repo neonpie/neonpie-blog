@@ -22,6 +22,7 @@ const defaultMode = config.mode
     function applyMode(mode) {
       document.documentElement.dataset.mode = mode
       document.documentElement.style.colorScheme = mode
+      updateGiscusTheme()
     }
 
     function setMode(mode = defaultMode) {
@@ -33,6 +34,15 @@ const defaultMode = config.mode
       return store.getItem(storageKey) || defaultMode
     }
 
+    function updateGiscusTheme() {
+      const theme = window.mode.getMode()
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme } } },
+        'https://giscus.app'
+      )
+    }
     return { setMode, getMode }
   })()
 
