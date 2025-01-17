@@ -1,11 +1,10 @@
 ---
 layout: '@/layouts/LandingLayout.astro'
-title: Nordlys
+title: Neon Pie
 background: true
 logo: true
 ---
 
-A minimal Astro blog theme.\
-Ideal for a personal [blog](/posts) and showcasing a [projects](/projects) portfolio.\
-Fully customizable, dark mode & built-in color schemes.\
-Read more in the [about](/about) section.
+Hi! I am Neon Pie, a full-stack web developer.
+I run the [YouTube](https://www.youtube.com/channel/UCV3-2vJmpa4hzbjEhNMNs9w) channel of the same name.
+I [blog](/posts) to help myself and others understand and work on some [projects](/projects) on the side.
