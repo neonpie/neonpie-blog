@@ -2,7 +2,7 @@ import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
   site: 'https://blog.neonpie.xyz',
-  title: 'Neonpie Blog',
+  title: "Neon Pie's Blog",
   description:
     'The awesome technical blog of Neonpie will help you understand more and be less frustrated with new tech.',
   author: 'Neon Pie',
