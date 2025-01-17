@@ -31,6 +31,11 @@ export default defineThemeConfig({
       icon: 'tabler--brand-youtube',
       href: 'https://www.youtube.com/channel/UCV3-2vJmpa4hzbjEhNMNs9w',
       label: 'YouTube'
+    },
+    {
+      icon: 'tabler--rss',
+      href: '/feed.xml',
+      label: 'RSS feed'
     }
   ],
 
