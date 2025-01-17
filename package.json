@@ -3,15 +3,15 @@
   "type": "module",
   "version": "2.0.2",
   "description": "A minimal Astro blog theme",
-  "author": "FjellOverflow",
+  "author": "Neon Pie",
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/FjellOverflow/nordlys",
+  "homepage": "https://github.com/neonpie/neonpie-blog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FjellOverflow/nordlys.git"
+    "url": "https://github.com/neonpie/neonpie-blog.git"
   },
   "bugs": {
-    "url": "https://github.com/FjellOverflow/nordlys/issues"
+    "url": "https://github.com/neonpie/neonpie-blog/issues"
   },
   "keywords": [
     "astro",
