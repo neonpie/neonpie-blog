@@ -1,5 +1,6 @@
 ---
 import AdjacentPostsBar from '@/components/AdjacentPostsBar.astro'
+import Comments from '@/components/Comments.astro'
 import TagsBar from '@/components/TagsBar.astro'
 import ToC from '@/components/ToC.astro'
 import PageLayout, {
@@ -72,6 +73,9 @@ const frontmatter: PageLayoutProps['frontmatter'] = {
   <article data-pagefind-body>
     <Content />
   </article>
+
+  <!-- GISCUS -->
+  <Comments />
 
   <AdjacentPostsBar {post} slot="bottom" />
   <HeadingAnchorsPlugin />
