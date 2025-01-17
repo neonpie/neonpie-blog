@@ -1,10 +1,11 @@
 import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
-  site: 'https://nordlys.fjelloverflow.dev',
-  title: 'Nordlys',
-  description: 'A minimal Astro blog theme',
-  author: 'FjellOverflow',
+  site: 'https://blog.neonpie.xyz',
+  title: 'Neonpie Blog',
+  description:
+    'The awesome technical blog of Neonpie will help you understand more and be less frustrated with new tech.',
+  author: 'Neon Pie',
   navbarItems: [
     { label: 'Blog', href: '/posts' },
     { label: 'Projects', href: '/projects' },
@@ -15,7 +16,7 @@ export default defineThemeConfig({
       children: [
         { label: 'Landing page', href: '/' },
         { label: '404 page', href: '/404' },
-        { label: 'Author: FjellOverflow', href: '/authors/FjellOverflow' },
+        { label: 'Author: Neon Pie', href: '/authors/neonpie' },
         { label: 'Tag: documentation', href: '/tags/documentation' }
       ]
     }
@@ -23,13 +24,13 @@ export default defineThemeConfig({
   footerItems: [
     {
       icon: 'tabler--brand-github',
-      href: 'https://github.com/FjellOverflow/nordlys',
+      href: 'https://github.com/neonpie',
       label: 'Github'
     },
     {
-      icon: 'tabler--rss',
-      href: '/feed.xml',
-      label: 'RSS feed'
+      icon: 'tabler--brand-youtube',
+      href: 'https://www.youtube.com/channel/UCV3-2vJmpa4hzbjEhNMNs9w',
+      label: 'YouTube'
     }
   ],
 
